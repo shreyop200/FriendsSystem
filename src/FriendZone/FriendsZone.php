@@ -167,6 +167,8 @@ class FriendsZone extends PluginBase implements Listener{
                         }
                         break;
                     case "list":
+                        $playerfile = new Config($this->getDataFolder() . $sender->getName() . ".yml", Config::YAML);
+                        $friends = $playerfile->get("Friend");
                         $sender->sendMessage($this->prefix."§6Your Friends:");
                         $sender->sendMessage(implode(", ", $friends));
                         break;
@@ -180,6 +182,7 @@ class FriendsZone extends PluginBase implements Listener{
                             $sender->sendMessage($this->prefix."§cInvalid state. Use 'on' or 'off'");
                             break;
                         }
+                        $config = new Config($this->getDataFolder() . "blocked.yml", Config::YAML);
                         $config->set("Blocked", $blockState);
                         $config->save();
                         $sender->sendMessage($this->prefix."§aFriend requests are now ".$blockState);
