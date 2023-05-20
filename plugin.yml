@@ -1,0 +1,14 @@
+name: FriendsSystem
+author: Shreyansh
+version: 1
+api: 4.0.0
+main: FriendZone\FriendsZone
+description: Start Enjoying Game with Your Friends With Ease!
+commands:
+  friends:
+    description: The Command to Get the Main UI Of Friends Panel!
+    aliases: [friends, fr]
+    permission: friendsystem.use
+permissions:
+  friendsystem.use:
+    default: true
