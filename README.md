@@ -1,5 +1,8 @@
 # FriendSystem
 
+[![](https://poggit.pmmp.io/shield.state/FriendsSystem)](https://poggit.pmmp.io/p/FriendsSystem)
+<a href="https://poggit.pmmp.io/p/FriendsSystem"><img src="https://poggit.pmmp.io/shield.state/FriendsSystem"></a>
+
 **FriendSystem** is a powerful plugin designed for **PocketMine-MP** servers that have API 4 Support, enabling players to efficiently manage their friends list and seamlessly send and accept friend requests. With this plugin, you can view the Features of FriendSystem in the **Feature** Section!
 Experience the ultimate friend management solution for your server with **FriendSystem**!
 
