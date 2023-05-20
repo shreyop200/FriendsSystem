@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/shreyop200/FriendsSystem
+build-by-default: true
+branches:
+- main
+projects:
+  FriendsSystem:
+    path: ""
+...
