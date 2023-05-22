@@ -4,5 +4,6 @@ branches:
 - main
 projects:
   FriendsSystem:
-    path: ".2024079.png"
+    path: ""
+    icon: "resources/2024079.png"
 ...
