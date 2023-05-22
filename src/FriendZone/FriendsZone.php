@@ -1,6 +1,6 @@
 <?php
 
-namespace FriendZone;
+namespace Shreyansh\FriendZone;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -21,7 +21,6 @@ class FriendsZone extends PluginBase implements Listener{
     public function onEnable(): void{
         @mkdir($this->getDataFolder());
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info($this->prefix."§aFriendsSystem Activated!");
     }
 
     public function onJoin(PlayerJoinEvent $event): void{
