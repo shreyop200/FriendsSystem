@@ -33,7 +33,8 @@ Experience the ultimate friend management solution for your server with **Friend
 1. Download the latest version of the FriendSystem plugin.
 2. Place the plugin file in the `plugins` folder of your PocketMine-MP server.
 3. Start or reload the server.
--> You can Download FriendSystem By Poggit Too: https://poggit.pmmp.io/p/FriendsSystem
+
+ -> You can Download FriendSystem By Poggit Too: https://poggit.pmmp.io/p/FriendsSystem
 
 ## Usage
 
