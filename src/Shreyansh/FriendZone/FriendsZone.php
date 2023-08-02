@@ -1,5 +1,7 @@
 <?php
 
+// Work for Pm5 Don't Need to Update This Code
+
 namespace Shreyansh\FriendZone;
 
 use pocketmine\plugin\PluginBase;
