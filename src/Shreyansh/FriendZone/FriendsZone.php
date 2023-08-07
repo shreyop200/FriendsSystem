@@ -135,7 +135,7 @@ class FriendsZone extends PluginBase implements Listener{
                         }
                         $invitedfile = new Config($this->getDataFolder().$invited.".yml", Config::YAML);
                         $invitations = $invitedfile->get("Invitations");
-                        if(in_array($sender->getName(), $invitations)){
+                        if(in_array($sender->getName(), (array) $invitations)){
                             $sender->sendMessage($this->prefix."§cYou have already invited ".$invited." to be friends");
                             break;
                         }
